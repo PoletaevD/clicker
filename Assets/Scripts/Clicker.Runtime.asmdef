@@ -1,0 +1,6 @@
+{
+  "name": "Clicker.Runtime",
+  "rootNamespace": "Clicker",
+  "references": ["Zenject", "UniRx", "UniTask", "Unity.ugui", "Unity.TextMeshPro", "Unity.InputSystem"],
+  "autoReferenced": true
+}

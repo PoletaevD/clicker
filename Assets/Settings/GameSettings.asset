@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f449f7092d35b784b8b8e19121738b68, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _initialCurrency: 0
+  _currencyPerClick: 1
+  _energyPerClick: 1
+  _maximumEnergy: 1000
+  _initialEnergy: 1000
+  _energyPerRecharge: 10
+  _rechargeInterval: 10
+  _autoClickInterval: 3
+  _weatherUrl: https://api.weather.gov/gridpoints/TOP/32,81/forecast
+  _breedsUrl: https://dogapi.dog/api/v2/breeds
+  _userAgent: ClickerUnityTest/1.0
+  _requestTimeoutSeconds: 20
+  _weatherRefreshInterval: 5
+  _breedCount: 10
+  _clickVolume: 0.35
+  _burstParticleCount: 10
+  _rewardFlightDuration: 0.85
+  _clickSound: {fileID: 8300000, guid: 455772b9ddc1c7f478434d9bfa3b34fa, type: 3}
